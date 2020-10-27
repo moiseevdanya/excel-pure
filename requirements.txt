@@ -1,0 +1,20 @@
+Будем делать SPA.
+
+Webpack (import/export)
+	Babel
+	Sass
+	Eslint (чистота кода)
+	2 режима сборки (
+		-dev (devserver (изменине в браузере лайв), sourcemap (исходные карты), eslint, Not minified js & css )
+		-prod (minified code)
+	)
+
+Git
+	Production
+		1.0.0
+		0 -----------------
+
+	Development
+		1.0.2
+		1 ------------------- + ---		Pull Request+ (запрос на вливание изменений из вашей ветки в основную ветку исходного репозитория), затем загружается в Production
+		2 ---------------------- | после пул реквеста ветка удаляется
