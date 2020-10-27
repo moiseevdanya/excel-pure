@@ -1,8 +1,11 @@
 Инициализация репозитория
 	git init
 	git add . (добавляем все файлы)
-	git commit -m "initial commit"
-	git push origin master
+	git commit -m "initial" (базовый комит, который инициализирует репозиторий)
+	git remote add origin (пишем ссылку на репозиторий)
+	git push -u origin master
+
+	git checkout -b "webpack" (создает и реализовывает проект в отдельной ветке)
 
 
 Перед тем как вводить команду "npm i", обновите версии пакетов в файле package.json. Делается это так:
