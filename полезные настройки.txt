@@ -6,6 +6,12 @@
 	git push -u origin master
 
 	git checkout -b "webpack" (создает и реализовывает проект в отдельной ветке)
+	git add .
+	git commit -m 'webpack config'
+	git push -u origin webpack
+
+Настройки webpack
+	npm install webpack webpack-cli --save-dev (savedev все для разработки, в прод не идут)
 
 
 Перед тем как вводить команду "npm i", обновите версии пакетов в файле package.json. Делается это так:
@@ -18,3 +24,4 @@
 npm cache clean --force
 устанавливаем заного нпм
 npm i npm -g
+
