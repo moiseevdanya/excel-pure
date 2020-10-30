@@ -25,3 +25,15 @@ npm cache clean --force
 устанавливаем заного нпм
 npm i npm -g
 
+У меня на сработал сервер, падал с ошибкой:
+Error: Cannot find module 'webpack-cli/bin/config-yargs'
+проблему с флагом --open решил только даунгрейдом:
+npm i webpack-cli@3.3.12
+
+На версии
+"webpack": "^5.1.3"
+описанный прием для hot reload не работает.
+нужно именно webpack откатить до версии 4.44.2
+npm i webpack@4.44.2
+
+
